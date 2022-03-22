@@ -2,9 +2,17 @@
   height: auto;
 }
 
+h1 {
+  text-align: center;
+  background-color: darkkhaki;
+  padding: 10px;
+  margin-top: 0px;
+  border-bottom: 5px solid black;
+}
+
 .container {
   display: grid;
-  justify-content: stretch;
+  justify-content: space-between;
   align-items: stretch;
   width: 500px;
   height: 500px;
@@ -18,12 +26,12 @@ body {
   flex-direction: column;
   justify-content: center;
   font-family: Bungee, 'Courier New', Courier, monospace;
+  margin: 0;
 }
 
 button {
   all: unset;
   align-self: center;
-  margin-top: 20px;
   cursor: pointer;
   border: 5px solid black;
   border-radius: 15px;

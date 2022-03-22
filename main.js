@@ -36,5 +36,4 @@ function drawGrid(dimensions=16) {
     }
   }
 }
-
 drawGrid();

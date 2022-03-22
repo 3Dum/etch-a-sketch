@@ -17,5 +17,18 @@
 body {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  font-family: Bungee, 'Courier New', Courier, monospace;
+}
+
+button {
+  all: unset;
+  align-self: center;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 5px solid black;
+  border-radius: 15px;
+  padding: 10px;
+
 }

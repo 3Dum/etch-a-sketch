@@ -1,5 +1,4 @@
 .square {
-  border: 5px solid black;
   height: auto;
 }
 
@@ -9,7 +8,6 @@
   grid-template-rows: repeat(16, 1fr);
   justify-content: stretch;
   align-items: stretch;
-  gap: 10px;
   height: 100vh;
 }
 
